@@ -14,13 +14,30 @@
 		3C348158190D56F400EEBFD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C348157190D56F400EEBFD5 /* main.m */; };
 		3C34815C190D56F400EEBFD5 /* VIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34815B190D56F400EEBFD5 /* VIAppDelegate.m */; };
 		3C34815F190D56F400EEBFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C34815D190D56F400EEBFD5 /* Main.storyboard */; };
-		3C348162190D56F400EEBFD5 /* VIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C348161190D56F400EEBFD5 /* VIViewController.m */; };
+		3C348162190D56F400EEBFD5 /* VIListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C348161190D56F400EEBFD5 /* VIListViewController.m */; };
 		3C348164190D56F400EEBFD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C348163190D56F400EEBFD5 /* Images.xcassets */; };
 		3C34816B190D56F400EEBFD5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34816A190D56F400EEBFD5 /* XCTest.framework */; };
 		3C34816C190D56F400EEBFD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34814B190D56F400EEBFD5 /* Foundation.framework */; };
 		3C34816D190D56F400EEBFD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34814F190D56F400EEBFD5 /* UIKit.framework */; };
 		3C348175190D56F400EEBFD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C348173190D56F400EEBFD5 /* InfoPlist.strings */; };
 		3C348177190D56F400EEBFD5 /* World_TravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C348176190D56F400EEBFD5 /* World_TravelerTests.m */; };
+		3CB47539190D623D00B7D5B5 /* VIMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB47538190D623D00B7D5B5 /* VIMapViewController.m */; };
+		3CB4753D190D67F800B7D5B5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB4753C190D67F800B7D5B5 /* MapKit.framework */; };
+		3CB47542190D6AE100B7D5B5 /* WorldTravelerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CB47540190D6AE100B7D5B5 /* WorldTravelerModel.xcdatamodeld */; };
+		3CB47544190D6B0500B7D5B5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB47543190D6B0500B7D5B5 /* CoreData.framework */; };
+		3CB47547190D737100B7D5B5 /* FSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB47546190D737100B7D5B5 /* FSCategory.m */; };
+		3CB4754A190D737200B7D5B5 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB47549190D737200B7D5B5 /* Contact.m */; };
+		3CB4754D190D737200B7D5B5 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4754C190D737200B7D5B5 /* Menu.m */; };
+		3CB47550190D737200B7D5B5 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4754F190D737200B7D5B5 /* Location.m */; };
+		3CB47553190D737200B7D5B5 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB47552190D737200B7D5B5 /* Venue.m */; };
+		3CB47556190D73FE00B7D5B5 /* VIRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB47555190D73FE00B7D5B5 /* VIRecord.m */; };
+		3CB4755A190D778400B7D5B5 /* VIFourSquareSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB47559190D778400B7D5B5 /* VIFourSquareSessionManager.m */; };
+		3CB4755C190D7F0D00B7D5B5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB4755B190D7F0D00B7D5B5 /* CoreLocation.framework */; };
+		3CB47561190D830500B7D5B5 /* AFMMRecordResponseSerializationMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4755E190D830500B7D5B5 /* AFMMRecordResponseSerializationMapper.m */; };
+		3CB47562190D830500B7D5B5 /* AFMMRecordResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB47560190D830500B7D5B5 /* AFMMRecordResponseSerializer.m */; };
+		3CB47565191020A500B7D5B5 /* VIDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB47564191020A500B7D5B5 /* VIDirectionsViewController.m */; };
+		3CB4756919103CB400B7D5B5 /* VIDirectionsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB4756819103CB400B7D5B5 /* VIDirectionsListViewController.m */; };
+		D64E25741CDA4767A0182863 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E38077C918F543668C19134A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +62,44 @@
 		3C34815A190D56F400EEBFD5 /* VIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIAppDelegate.h; sourceTree = "<group>"; };
 		3C34815B190D56F400EEBFD5 /* VIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIAppDelegate.m; sourceTree = "<group>"; };
 		3C34815E190D56F400EEBFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3C348160190D56F400EEBFD5 /* VIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIViewController.h; sourceTree = "<group>"; };
-		3C348161190D56F400EEBFD5 /* VIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIViewController.m; sourceTree = "<group>"; };
+		3C348160190D56F400EEBFD5 /* VIListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIListViewController.h; sourceTree = "<group>"; };
+		3C348161190D56F400EEBFD5 /* VIListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIListViewController.m; sourceTree = "<group>"; };
 		3C348163190D56F400EEBFD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C348169190D56F400EEBFD5 /* World TravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World TravelerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C34816A190D56F400EEBFD5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3C348172190D56F400EEBFD5 /* World TravelerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World TravelerTests-Info.plist"; sourceTree = "<group>"; };
 		3C348174190D56F400EEBFD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C348176190D56F400EEBFD5 /* World_TravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_TravelerTests.m; sourceTree = "<group>"; };
+		3CB47537190D623D00B7D5B5 /* VIMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIMapViewController.h; sourceTree = "<group>"; };
+		3CB47538190D623D00B7D5B5 /* VIMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIMapViewController.m; sourceTree = "<group>"; };
+		3CB4753C190D67F800B7D5B5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3CB47541190D6AE100B7D5B5 /* WorldTravelerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldTravelerModel.xcdatamodel; sourceTree = "<group>"; };
+		3CB47543190D6B0500B7D5B5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3CB47545190D737100B7D5B5 /* FSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCategory.h; sourceTree = "<group>"; };
+		3CB47546190D737100B7D5B5 /* FSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCategory.m; sourceTree = "<group>"; };
+		3CB47548190D737200B7D5B5 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		3CB47549190D737200B7D5B5 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		3CB4754B190D737200B7D5B5 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		3CB4754C190D737200B7D5B5 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		3CB4754E190D737200B7D5B5 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		3CB4754F190D737200B7D5B5 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		3CB47551190D737200B7D5B5 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		3CB47552190D737200B7D5B5 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		3CB47554190D73FE00B7D5B5 /* VIRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIRecord.h; sourceTree = "<group>"; };
+		3CB47555190D73FE00B7D5B5 /* VIRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIRecord.m; sourceTree = "<group>"; };
+		3CB47558190D778400B7D5B5 /* VIFourSquareSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIFourSquareSessionManager.h; sourceTree = "<group>"; };
+		3CB47559190D778400B7D5B5 /* VIFourSquareSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIFourSquareSessionManager.m; sourceTree = "<group>"; };
+		3CB4755B190D7F0D00B7D5B5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3CB4755D190D830500B7D5B5 /* AFMMRecordResponseSerializationMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFMMRecordResponseSerializationMapper.h; path = ../../MMRecord/Source/AFMMRecordResponseSerializer/AFMMRecordResponseSerializationMapper.h; sourceTree = "<group>"; };
+		3CB4755E190D830500B7D5B5 /* AFMMRecordResponseSerializationMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFMMRecordResponseSerializationMapper.m; path = ../../MMRecord/Source/AFMMRecordResponseSerializer/AFMMRecordResponseSerializationMapper.m; sourceTree = "<group>"; };
+		3CB4755F190D830500B7D5B5 /* AFMMRecordResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFMMRecordResponseSerializer.h; path = ../../MMRecord/Source/AFMMRecordResponseSerializer/AFMMRecordResponseSerializer.h; sourceTree = "<group>"; };
+		3CB47560190D830500B7D5B5 /* AFMMRecordResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFMMRecordResponseSerializer.m; path = ../../MMRecord/Source/AFMMRecordResponseSerializer/AFMMRecordResponseSerializer.m; sourceTree = "<group>"; };
+		3CB47563191020A500B7D5B5 /* VIDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDirectionsViewController.h; sourceTree = "<group>"; };
+		3CB47564191020A500B7D5B5 /* VIDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDirectionsViewController.m; sourceTree = "<group>"; };
+		3CB4756719103CB400B7D5B5 /* VIDirectionsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDirectionsListViewController.h; sourceTree = "<group>"; };
+		3CB4756819103CB400B7D5B5 /* VIDirectionsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDirectionsListViewController.m; sourceTree = "<group>"; };
+		65FBA8FB73D84531A165B083 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E38077C918F543668C19134A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +107,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB4755C190D7F0D00B7D5B5 /* CoreLocation.framework in Frameworks */,
+				3CB47544190D6B0500B7D5B5 /* CoreData.framework in Frameworks */,
+				3CB4753D190D67F800B7D5B5 /* MapKit.framework in Frameworks */,
 				3C34814E190D56F400EEBFD5 /* CoreGraphics.framework in Frameworks */,
 				3C348150190D56F400EEBFD5 /* UIKit.framework in Frameworks */,
 				3C34814C190D56F400EEBFD5 /* Foundation.framework in Frameworks */,
+				D64E25741CDA4767A0182863 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +137,7 @@
 				3C348170190D56F400EEBFD5 /* World TravelerTests */,
 				3C34814A190D56F400EEBFD5 /* Frameworks */,
 				3C348149190D56F400EEBFD5 /* Products */,
+				65FBA8FB73D84531A165B083 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +153,14 @@
 		3C34814A190D56F400EEBFD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3CB4755B190D7F0D00B7D5B5 /* CoreLocation.framework */,
+				3CB47543190D6B0500B7D5B5 /* CoreData.framework */,
+				3CB4753C190D67F800B7D5B5 /* MapKit.framework */,
 				3C34814B190D56F400EEBFD5 /* Foundation.framework */,
 				3C34814D190D56F400EEBFD5 /* CoreGraphics.framework */,
 				3C34814F190D56F400EEBFD5 /* UIKit.framework */,
 				3C34816A190D56F400EEBFD5 /* XCTest.framework */,
+				E38077C918F543668C19134A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +168,14 @@
 		3C348151190D56F400EEBFD5 /* World Traveler */ = {
 			isa = PBXGroup;
 			children = (
-				3C34815A190D56F400EEBFD5 /* VIAppDelegate.h */,
-				3C34815B190D56F400EEBFD5 /* VIAppDelegate.m */,
 				3C34815D190D56F400EEBFD5 /* Main.storyboard */,
-				3C348160190D56F400EEBFD5 /* VIViewController.h */,
-				3C348161190D56F400EEBFD5 /* VIViewController.m */,
+				3CB4756A19103CB900B7D5B5 /* Directions List */,
+				3CB47566191020E900B7D5B5 /* Directions */,
+				3CB47557190D773C00B7D5B5 /* API */,
+				3CB4753F190D6A6900B7D5B5 /* Initialization */,
+				3CB4753E190D6A5500B7D5B5 /* Model */,
+				3CB4753B190D62A700B7D5B5 /* Map View */,
+				3CB4753A190D629800B7D5B5 /* List View */,
 				3C348163190D56F400EEBFD5 /* Images.xcassets */,
 				3C348152190D56F400EEBFD5 /* Supporting Files */,
 			);
@@ -152,6 +211,84 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3CB4753A190D629800B7D5B5 /* List View */ = {
+			isa = PBXGroup;
+			children = (
+				3C348160190D56F400EEBFD5 /* VIListViewController.h */,
+				3C348161190D56F400EEBFD5 /* VIListViewController.m */,
+				3CB4755D190D830500B7D5B5 /* AFMMRecordResponseSerializationMapper.h */,
+				3CB4755E190D830500B7D5B5 /* AFMMRecordResponseSerializationMapper.m */,
+				3CB4755F190D830500B7D5B5 /* AFMMRecordResponseSerializer.h */,
+				3CB47560190D830500B7D5B5 /* AFMMRecordResponseSerializer.m */,
+			);
+			name = "List View";
+			sourceTree = "<group>";
+		};
+		3CB4753B190D62A700B7D5B5 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				3CB47537190D623D00B7D5B5 /* VIMapViewController.h */,
+				3CB47538190D623D00B7D5B5 /* VIMapViewController.m */,
+			);
+			name = "Map View";
+			sourceTree = "<group>";
+		};
+		3CB4753E190D6A5500B7D5B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CB47554190D73FE00B7D5B5 /* VIRecord.h */,
+				3CB47555190D73FE00B7D5B5 /* VIRecord.m */,
+				3CB47540190D6AE100B7D5B5 /* WorldTravelerModel.xcdatamodeld */,
+				3CB47551190D737200B7D5B5 /* Venue.h */,
+				3CB47552190D737200B7D5B5 /* Venue.m */,
+				3CB4754E190D737200B7D5B5 /* Location.h */,
+				3CB4754F190D737200B7D5B5 /* Location.m */,
+				3CB4754B190D737200B7D5B5 /* Menu.h */,
+				3CB4754C190D737200B7D5B5 /* Menu.m */,
+				3CB47548190D737200B7D5B5 /* Contact.h */,
+				3CB47549190D737200B7D5B5 /* Contact.m */,
+				3CB47545190D737100B7D5B5 /* FSCategory.h */,
+				3CB47546190D737100B7D5B5 /* FSCategory.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3CB4753F190D6A6900B7D5B5 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				3C34815A190D56F400EEBFD5 /* VIAppDelegate.h */,
+				3C34815B190D56F400EEBFD5 /* VIAppDelegate.m */,
+			);
+			name = Initialization;
+			sourceTree = "<group>";
+		};
+		3CB47557190D773C00B7D5B5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3CB47558190D778400B7D5B5 /* VIFourSquareSessionManager.h */,
+				3CB47559190D778400B7D5B5 /* VIFourSquareSessionManager.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		3CB47566191020E900B7D5B5 /* Directions */ = {
+			isa = PBXGroup;
+			children = (
+				3CB47563191020A500B7D5B5 /* VIDirectionsViewController.h */,
+				3CB47564191020A500B7D5B5 /* VIDirectionsViewController.m */,
+			);
+			name = Directions;
+			sourceTree = "<group>";
+		};
+		3CB4756A19103CB900B7D5B5 /* Directions List */ = {
+			isa = PBXGroup;
+			children = (
+				3CB4756719103CB400B7D5B5 /* VIDirectionsListViewController.h */,
+				3CB4756819103CB400B7D5B5 /* VIDirectionsListViewController.m */,
+			);
+			name = "Directions List";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C34817A190D56F400EEBFD5 /* Build configuration list for PBXNativeTarget "World Traveler" */;
 			buildPhases = (
+				AAFE095C78E34DB4A5170E3B /* Check Pods Manifest.lock */,
 				3C348144190D56F300EEBFD5 /* Sources */,
 				3C348145190D56F300EEBFD5 /* Frameworks */,
 				3C348146190D56F300EEBFD5 /* Resources */,
+				BB5C24A7755C49C59FDD0D59 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,14 +384,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AAFE095C78E34DB4A5170E3B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB5C24A7755C49C59FDD0D59 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C348144190D56F300EEBFD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB47539190D623D00B7D5B5 /* VIMapViewController.m in Sources */,
+				3CB47542190D6AE100B7D5B5 /* WorldTravelerModel.xcdatamodeld in Sources */,
+				3CB4756919103CB400B7D5B5 /* VIDirectionsListViewController.m in Sources */,
+				3CB47562190D830500B7D5B5 /* AFMMRecordResponseSerializer.m in Sources */,
 				3C348158190D56F400EEBFD5 /* main.m in Sources */,
-				3C348162190D56F400EEBFD5 /* VIViewController.m in Sources */,
+				3CB47553190D737200B7D5B5 /* Venue.m in Sources */,
+				3C348162190D56F400EEBFD5 /* VIListViewController.m in Sources */,
+				3CB47561190D830500B7D5B5 /* AFMMRecordResponseSerializationMapper.m in Sources */,
+				3CB47550190D737200B7D5B5 /* Location.m in Sources */,
+				3CB4754A190D737200B7D5B5 /* Contact.m in Sources */,
+				3CB47556190D73FE00B7D5B5 /* VIRecord.m in Sources */,
+				3CB47547190D737100B7D5B5 /* FSCategory.m in Sources */,
+				3CB4754D190D737200B7D5B5 /* Menu.m in Sources */,
+				3CB4755A190D778400B7D5B5 /* VIFourSquareSessionManager.m in Sources */,
 				3C34815C190D56F400EEBFD5 /* VIAppDelegate.m in Sources */,
+				3CB47565191020A500B7D5B5 /* VIDirectionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +559,7 @@
 		};
 		3C34817B190D56F400EEBFD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FBA8FB73D84531A165B083 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +573,7 @@
 		};
 		3C34817C190D56F400EEBFD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FBA8FB73D84531A165B083 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +644,7 @@
 				3C34817C190D56F400EEBFD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C34817D190D56F400EEBFD5 /* Build configuration list for PBXNativeTarget "World TravelerTests" */ = {
 			isa = XCConfigurationList;
@@ -465,8 +653,22 @@
 				3C34817F190D56F400EEBFD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CB47540190D6AE100B7D5B5 /* WorldTravelerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CB47541190D6AE100B7D5B5 /* WorldTravelerModel.xcdatamodel */,
+			);
+			currentVersion = 3CB47541190D6AE100B7D5B5 /* WorldTravelerModel.xcdatamodel */;
+			path = WorldTravelerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3C348140190D56F300EEBFD5 /* Project object */;
 }
